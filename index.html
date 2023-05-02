@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,39 +15,40 @@
 </head>
 <body>
   <main>
-    <div id="form-container">
-      <form id="form" novalidate autocomplete="off">
-        <div class="input" id="cont-day">
-          <label for="input-day">Day</label>
-          <input id="input-day" name="day" type="number" placeholder="DD" pattern="^[0-9]{2,3}$" min="1" max="31" required/>
+    <h1 class="invisible">Age calculator</h1>
+    <div id="card">
+      <form id="input-form" novalidate autocomplete="off">
+        <div class="input-cont" id="cont-day">
+          <label class="label" for="input-day">Day</label>
+          <input id="input-day" name="day" type="tel" placeholder="DD" pattern="^[0-9]{2,3}$" min="1" max="31" required/>
           <label class="hint" for="input-day">Must be a valid day</label>
         </div>
-        <div class="input" id="cont-month">
-          <label for="input-month">Day</label>
-          <input id="input-month" name="month" type="number" placeholder="MM" pattern="^[0-9]{2,3}$" min="1" max="12" required/>
+        <div class="input-cont" id="cont-month">
+          <label class="label" for="input-month">Month</label>
+          <input id="input-month" name="month" type="tel" placeholder="MM" pattern="^[0-9]{2,3}$" min="1" max="12" required/>
           <label class="hint" for="input-month">Must be a valid month</label>
         </div>
-        <div class="input" id="cont-year">
-          <label for="input-year">Day</label>
-          <input id="input-year" name="year" type="number" placeholder="YYYY" pattern="^[0-9]{5}$" min="1000" max="9999" required/>
+        <div class="input-cont" id="cont-year">
+          <label class="label" for="input-year">Year</label>
+          <input id="input-year" name="year" type="tel" placeholder="YYYY" pattern="^[0-9]{5}$" min="1000" max="9999" required/>
           <label class="hint" for="input-year">Must be a valid year</label>
         </div>
       </form>
-    </div>
-    <div id="button-container">
-      <button type="submit" form="form-date">
-        <img src="./assets/images/icon-arrow.svg" alt="Submit" >
-      </button>
-    </div>
-    <div id="output">
-      <p><span id="output-years">--</span> years</p>
-      <p><span id="output-months">--</span> months</p>
-      <p><span id="output-days">--</span> days</p>
+      <div id="button-container">
+        <button id="button-submit" type="submit" form="input-form">
+          <img id="button-arrow" src="./assets/images/icon-arrow.svg" alt="Submit" >
+        </button>
+      </div>
+      <div id="output">
+        <p><span class="output-data" id="output-years">--</span> years</p>
+        <p><span class="output-data" id="output-months">--</span> months</p>
+        <p><span class="output-data" id="output-days">--</span> days</p>
+      </div>
     </div>
   </main>
-  <footer>
+  <footer id="attribution">
     <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </span>
-    <span>Coded by <a href="https://github.com/zarni-ein" target="_blank">Zarni</a>. v0.1</span>
+    <span>Coded by <a href="https://github.com/zarni-ein" target="_blank">Zarni</a>. v0.2</span>
   </footer>
 </body>
 </html>
