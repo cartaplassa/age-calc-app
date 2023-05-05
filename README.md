@@ -114,6 +114,5 @@ function checkValidDate(input) {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [zarni-ein](https://github.com/zarni-ein/)
+- Frontend Mentor - [@zarni-ein](https://www.frontendmentor.io/profile/zarni-ein)
