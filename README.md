@@ -1,6 +1,6 @@
 # Frontend Mentor - Age calculator app solution
 
-[Solution](https://github.com/zarni-ein/age-calc-app/) | [Live Site](https://zarni-ein.github.io/age-calc-app/)
+[Solution](https://github.com/cartaplassa/age-calc-app/) | [Live Site](https://cartaplassa.github.io/age-calc-app/)
 
 This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
